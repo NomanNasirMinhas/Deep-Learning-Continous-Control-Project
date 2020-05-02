@@ -11,10 +11,24 @@ Our agent must get an average score of +30 (over 100 consecutive episodes, and o
 **The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.**
 
 # Dependencies
-We will require following packages to run this project.
+We will require following packages to run this project. We can install each package by following instructions below respective package.
 1. **deep-reinforcement-learning  (DRLND)**
+- git clone https://github.com/udacity/deep-reinforcement-learning.git
+- cd deep-reinforcement-learning/python
+- pip install 
+
 2. **ml-agents  (ML-Agents Toolkit)**
+- conda create -n ml-agents python=3.6 <3.6 = Python Version>
+- activate ml-agents
+- pip install tensorflow==1.7.1
+
 3. **Unity environment _Reacher_**
+We can download unity environment from below link and extract them into our project directory
+- Windows (64-bit), [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Windows_x86_64.zip)    
+- Windows (32-bit), [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Crawler/Crawler_Windows_x86.zip)     
+
+
+
 
 # How to train agent
 Run each cell of the notebook sequentially to train the agent.
